@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6d747a0f-ff14-472d-8489-8c82192b2278",
+  "alias": "AlarmsPortalWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "Alarms Portal" },
+    "description": { "default": "AlarmsPortal description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "googleMapApiKey": "AIzaSyA7rHPGJf10wKD6TTzmtzBZmiKPR4Nv81k"
+    }
+  }]
+}
