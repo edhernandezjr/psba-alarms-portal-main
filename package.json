@@ -50,7 +50,7 @@
     "@types/react-router-dom": "^5.3.2",
     "@types/react-router-redux": "^5.0.20",
     "@types/webpack-env": "1.13.1",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "gulp": "~4.0.2"
   }
 }
