@@ -24,7 +24,7 @@
     "crypto-js": "^4.1.1",
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.34",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
